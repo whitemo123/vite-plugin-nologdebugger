@@ -2,7 +2,7 @@ import { transformSync } from "@babel/core";
 import myBabelPlugin from "babel-plugin-transform-remove-console";
 import transformRemoveDebugger from "babel-plugin-transform-remove-debugger";
 
-const baseBabel = (name: string) => {
+const baseBabel = () => {
   const babelConfig = {
     plugins: [
       [myBabelPlugin, { exclude: ["error", "warn"] }],
