@@ -17,7 +17,7 @@
     "url": "https://github.com/whitemo123/vite-plugin-nologdebugger.git"
   },
   "scripts": {
-    "build": "tsup && copy .\\package.json .\\dist && copy .\\README.md .\\dist"
+    "build": "tsup && copy .\\package.json .\\dist && copy .\\README.md .\\dist && copy .\\LICENSE .\\dist"
   },
   "keywords": [
     "vite",
