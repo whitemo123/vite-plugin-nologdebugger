@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-nologdebugger",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "a vite plugin to remove debugger and log",
   "main": "./index.js",
   "types": "./index.d.ts",
