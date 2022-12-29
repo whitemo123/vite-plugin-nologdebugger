@@ -7,11 +7,12 @@
     "noUnusedLocals": true,
     "esModuleInterop": true,
     "outDir": "dist",
-    "module": "esnext",
-    "lib": ["esnext"],
+    "module": "commonjs",
+    "lib": ["ESNext"],
+    "types": ["vite/client", "node"],
     "sourceMap": false,
     "noEmitOnError": true
   },
-  "include": ["./src"],
-  "exclude": ["**/dist", "**/node_modules"]
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
